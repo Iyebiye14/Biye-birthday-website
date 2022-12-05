@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    background-color: #7cb518; 
+    color: #f3de2c;
+    margin-top: 50px;
+    font-family: 'Happy Monkey', cursive;
+    margin-bottom: 50px;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px #333444;
+}  
+
+#picture{
+    width: 150px;
+    border: 6px solid #fb6107;
+    border-radius: 50%;
+    border-bottom: 10px;
+}
+
+#age{
+    text-shadow: 0px 0px 1px #333444;
+    background-color: #fb6107;
+    padding: 4px 6px;
+    border-radius: 8px;
+}
+
+#date{
+    margin-top: -5px;
+    text-shadow: 0px 0px 1px #333444;
+    background-color: #fb6107;
+    padding: 4px 6px;
+    border-radius: 8px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    /* border: 6px solid #f3de2c;
+    border-radius: 10px; */
+    background-image: url("images/gift-box.png");
+    background-size: cover;
+}
+
+#gift-img-happy:hover{
+    background-image: url("images/gift-happy.gif");
+    border: 6px solid #f3de2c;
+    border-radius: 10px;
+}
+
+#gift-img-hot:hover{
+    background-image: url("images/gift-hot.gif");
+    border: 6px solid #f3de2c;
+    border-radius: 10px;
+}
+
+#gift-img-extraordinary:hover{
+    background-image: url("images/gift-extraordinary.gif");
+    border: 6px solid #f3de2c;
+    border-radius: 10px;
+}
+
+#gift-img-cheers{
+    height: 200px;
+}
+
+#gift-img-cheers:hover{
+    background-image: url("images/gift-cheers.gif");
+    background-size: cover;
+    border: 6px solid #f3de2c;
+    border-radius: 10px;
+}
+
+.footnote{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+
+
